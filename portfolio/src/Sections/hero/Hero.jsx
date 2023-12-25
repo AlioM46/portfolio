@@ -16,7 +16,7 @@ const Hero = () => {
                 in Saudi Arabia. 📍
               </p>
               <a
-                href="../../assets/CV.pdf"
+                href="https://filebin.net/hu0o1pmc6amoxj0n/CV.pdf"
                 className="downloadLink"
                 download={"AliOmarCV.pdf"}
               >
