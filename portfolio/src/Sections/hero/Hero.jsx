@@ -15,6 +15,13 @@ const Hero = () => {
                 Hi, I'm Ali Omar. A passionate Front-end React Developer based
                 in Saudi Arabia. 📍
               </p>
+              <a
+                href="../../assets/CV.pdf"
+                className="downloadLink"
+                download={"AliOmarCV.pdf"}
+              >
+                Download CV
+              </a>
               <div className="hero-text-icons">
                 <a href="#">
                   <FaGithub />
