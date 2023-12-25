@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-deployer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-client": "cd portfolio && npm install",
+    "build-client": "cd portfolio && npm run build",
+    "start-client": "cd portfolio && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

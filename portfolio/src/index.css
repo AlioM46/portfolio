@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #f9f9f9;
+  --color-text: #2d2e32;
+  --color-text-light: #767676;
+  --color-text-special: #147efb;
+}
+
+/* all text except p,h3 */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--color-text) !important;
+}
+
+/* The subText */
+p {
+  color: var(--color-text-light);
+}
+
+/* This Span Will follow Heading titles */
+span,
+a {
+  color: #151313c5;
+}
+
+/* The heading Titles */
+h6 {
+  color: var(--color-text-special);
+}

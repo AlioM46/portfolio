@@ -1,0 +1,75 @@
+.about-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 3rem;
+}
+
+.about-img {
+  display: flex;
+  position: relative;
+}
+
+.about-img > img:first-child {
+  border-radius: 1.6rem;
+}
+
+img.person {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  right: 24px;
+  bottom: 32px;
+  z-index: 12;
+}
+
+img {
+  object-fit: cover;
+}
+
+.about-img span {
+  background-color: white;
+  position: absolute;
+  right: -30px;
+  bottom: -30px;
+  width: 12rem;
+  border-radius: 50%;
+}
+
+.about-img span img {
+  animation: spinner infinite 5s linear;
+}
+
+.about-text p {
+  line-height: 2;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@media (max-width: 550px) {
+  .about-content {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+
+  .about-img span,
+  .about-img img.person {
+    display: none;
+  }
+}
+@media (max-width: 792px) {
+  .about {
+    overflow: hidden;
+  }
+}
+@media (max-width: 550px) {
+  .about-text p {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+}

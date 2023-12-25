@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a svg:hover,
+p svg:hover,
+div svg:hover,
+svg:hover {
+  color: var(--color-text-special);
+  transition: 0.3s;
+}
+.nav-handler {
+  margin-bottom: 110px;
+}
+
+.app__container > section {
+  min-height: 75vh;
+  margin-top: 8rem;
+}

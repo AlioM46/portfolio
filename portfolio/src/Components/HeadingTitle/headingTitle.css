@@ -1,0 +1,23 @@
+.heading-title {
+  max-width: 100%;
+}
+
+.heading-title h2 {
+  color: var(--color-text-special) !important;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.heading-title h4 {
+  color: var(--color-text) !important;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+@media (max-width: 550px) {
+  .heading-title {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
