@@ -16,14 +16,15 @@ const Hero = () => {
                 in Saudi Arabia. 📍
               </p>
               <a
-                href="https://filebin.net/hu0o1pmc6amoxj0n/CV.pdf"
+                href="https://mycvasdadad.tiiny.site/"
                 className="downloadLink"
+                target="_blank"
                 download={"AliOmarCV.pdf"}
               >
                 Download CV
               </a>
               <div className="hero-text-icons">
-                <a href="#">
+                <a href="https://github.com/AlioM46" target="_blank">
                   <FaGithub />
                 </a>
               </div>
@@ -36,27 +37,27 @@ const Hero = () => {
             <h2>Tech stack </h2>
             <div className="hero-skills-container">
               <p>
-                <a href="https://skillicons.dev">
+                <a href="#">
                   <img src="https://skillicons.dev/icons?i=html,css" />
                 </a>
               </p>
               <p>
-                <a href="https://skillicons.dev">
+                <a href="#">
                   <img src="https://skillicons.dev/icons?i=js,nodejs" />
                 </a>
               </p>
               <p>
-                <a href="https://skillicons.dev">
+                <a href="#">
                   <img src="https://skillicons.dev/icons?i=express,react" />
                 </a>
               </p>
               <p>
-                <a href="https://skillicons.dev">
+                <a href="#">
                   <img src="https://skillicons.dev/icons?i=tailwind,redux" />
                 </a>
               </p>
               <p>
-                <a href="https://skillicons.dev">
+                <a href="#">
                   <img src="https://skillicons.dev/icons?i=mongodb,github" />
                 </a>
               </p>
