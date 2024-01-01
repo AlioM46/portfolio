@@ -36,8 +36,8 @@ const projectsList = [
     techs: ["React", "CSS", "Node.js", "Express", "MongoDB", "Redux Toolkit"],
     title: "NETFLIX CLONE",
     text: "A full-stack Netflix clone that replicates the popular streaming platform's user interface. This project incorporates a React front-end for the seamless user experience, a Node.js and Express back-end for server-side logic, and MongoDB for database storage. Redux Toolkit is used for state management, ensuring a robust and responsive application.",
-    github: "https://github.com/AlioM46/Netflix_Clone",
-    preview: "https://netflix-client-v5qd.onrender.com/",
+    github: "https://github.com/AlioM46/movieApp",
+    preview: "https://movieapp-7pvq.onrender.com/",
   },
   {
     emoji: "🤖",
