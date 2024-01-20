@@ -7,6 +7,7 @@ import calculator from "../../assets/Calculator.png";
 import carRental from "../../assets/CarRental.png";
 import eCommerce from "../../assets/ECommerce.png";
 import netflixClone from "../../assets/NetflixClone.png";
+import RealEstate from "../../assets/RealEstate.png";
 
 import "./projects.css";
 
@@ -22,13 +23,23 @@ const projectsList = [
   },
 
   {
+    emoji: "🏨",
+    img: RealEstate,
+    techs: ["Next.js", "CSS"],
+    title: "Real Estate",
+    text: "A Real Estate website with user-friendly, interactive, responsive and Modern Design.",
+    github: "https://github.com/AlioM46/RealEstateFrontEnd",
+    preview: "https://real-estate-eight-iota.vercel.app/",
+  },
+
+  {
     emoji: "🛒",
     img: eCommerce,
     techs: ["React", "CSS"],
     title: "ECOMMERCE",
     text: "With a focus on simplicity and clean design, this store prioritizes user experience, making it easy for customers to find and purchase the products they need.",
     github: "https://github.com/AlioM46/E-Commerce",
-    preview: "https://github.com/AlioM46/E-Commerce", // This URL seems incorrect. Please provide the correct preview URL.
+    preview: "https://github.com/AlioM46/E-Commerce",
   },
   {
     emoji: "🎬",

@@ -1,5 +1,5 @@
 import React from "react";
-import {FaGithub, FaLink} from "react-icons/fa";
+import { FaGithub, FaLink } from "react-icons/fa";
 import "./projectsCard.css";
 const ProjectsCard = ({
   emoji,
