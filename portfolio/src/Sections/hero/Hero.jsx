@@ -1,5 +1,5 @@
 import React from "react";
-import {FaGithub} from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import SectionWrapper from "../../Components/SectionWrapper/SectionWrapper";
 import hiFive from "../../assets/hifive.png";
 import "./hero.css";
@@ -16,7 +16,7 @@ const Hero = () => {
                 in Saudi Arabia. 📍
               </p>
               <a
-                href="https://mycvasdadad.tiiny.site/"
+                href="https://filebin.net/apc0gcsqj3w2cymj/Ali_CV.pdf"
                 className="downloadLink"
                 target="_blank"
                 download={"AliOmarCV.pdf"}
